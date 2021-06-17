@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jump {
+    display: block;
+    content: "";
+    height: 80px;
+    margin: -80px 0 0;
+  }
+.menu {
+    margin: 0 auto;
+    max-width: 1440px;
+    position: fixed;
+    align-items: center;
+     justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    opacity: 0.9;
+}   
+.logo, .logo a, .logo a:visited {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-left: 5%;
+}
+.club {
+    display: block; 
+    padding-left: 15px;
+    width: 200px;
+    font-family:'Noto Sans', normal;
+    font-size: 14px;
+    color:#333333;
+    text-decoration: none;
+}
+nav {    
+    float: right;
+    right: 0%;
+    padding-right: 5%;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    font-family:'Montserrat', normal;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+nav a, nav a:visited {
+    color:#333333;
+    text-decoration: none;
+    line-height: 50px;
+    transition:  0.2s ease-in;
+}
+nav a:hover { 
+    font-size: 24px;
+    line-height: 10px;
+}
+nav a:active{
+    font-size: 24px;
+    color: red;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.top {
+    background-image: url(img/main.png);
+    height: 500px;
+    padding-top: 180px;
+    padding-left: 5%;
+    color: #fff;
+}
+.top h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+.top .text {
+    width: 478px;
+}
+.text {
+    font-weight: 400px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.description {
+    padding-top: 140px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.climbing_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block {
+    width: 640px;
+    height: 400px;
+}
+.pic {
+    width: 640px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.questions {
+    padding-top: 80px;
+    padding-right: 4%;
+    padding-left: 4%;
+    margin-bottom: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.question_block {
+    width: 413px;
+}
+.question_block h2 {
+    text-align: center;
+    padding-bottom: 24px;
+}
+.footer {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    height: 320px;
+    background-image: url(img/footer.png);
+}
+.footer img{
+    padding-top: 17px;
+}
